@@ -2,7 +2,7 @@
 def translator(phrase) : 
     translated_word = phrase
     for each_letter in phrase : 
-        if each_letter in "aeiou" or each_letter in "AEIOU": 
+        if each_letter in "aeiouAEIOU": 
             translated_word = translated_word.replace(each_letter, "g")
 
     return translated_word
